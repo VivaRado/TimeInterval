@@ -4,16 +4,15 @@
 
 <div markdown='1' class="header_logo">
 
-![Screenshot](_README/assets/media/time_interval_logo.svg)
+![Screenshot](https://github.com/VivaRado/TimeInterval/raw/main/_README/assets/media/time_interval_logo.svg)
 
 </div>
 
 <div markdown='1' class="header_preview">
 
-![Screenshot](_README/assets/media/time_interval_preview.svg)
+![Screenshot](https://github.com/VivaRado/TimeInterval/raw/main/_README/assets/media/time_interval_preview.svg)
 
 </div>
-
 
 
 
@@ -465,7 +464,8 @@ Here is an overview of the **TimeInterval** function(s):
 > 
 > Main function used to resolve the date.
 >
->```
+
+```
 A1.  Define dtstr with start_time if that is available, 
      if not and input is empty, define it with the current time, 
      otherwise leave the current value.
@@ -480,7 +480,7 @@ A7.  Contract date to string.
 A8.  Assert range if range assertion conditions are met.
 A9.  Display date on main input field and wrapper input fields.
 A10. Return all assertion messages if not silenced.
->``` 	 
+``` 	 
 
 <br>
 
@@ -558,7 +558,8 @@ A10. Return all assertion messages if not silenced.
 >
 >Set Events on main and subsequent inputs, wrapper inputs and wrapper control arrows.
 >
->```
+
+```
 B1.  Show Controls on click or focus on main inputs.
 B2.  Set Events on wrapper input arrows.
 B3.  Dissavle context menu on arrows.
@@ -580,7 +581,7 @@ B14. Sanitize input to numpad numbers, number keys,
      dissalow characters, allow ctrl or meta, 
      ignore backspace, delete, and left right arrows.
 B15. Keyboard arrow navigation.
->```
+```
 
 <br>
 
@@ -943,16 +944,15 @@ N/A
 
 <div markdown='1' class="header_logo">
 
-![Screenshot](_README/assets/media/time_interval_logo.svg)
+![Screenshot](https://github.com/VivaRado/TimeInterval/raw/main/_README/assets/media/time_interval_logo.svg)
 
 </div>
 
 <div markdown='1' class="header_preview">
 
-![Screenshot](_README/assets/media/time_interval_preview.svg)
+![Screenshot](https://github.com/VivaRado/TimeInterval/raw/main/_README/assets/media/time_interval_preview.svg)
 
 </div>
-
 
 
 
@@ -1404,7 +1404,8 @@ Here is an overview of the **TimeInterval** function(s):
 > 
 > Main function used to resolve the date.
 >
->```
+
+```
 A1.  Define dtstr with start_time if that is available, 
      if not and input is empty, define it with the current time, 
      otherwise leave the current value.
@@ -1419,7 +1420,7 @@ A7.  Contract date to string.
 A8.  Assert range if range assertion conditions are met.
 A9.  Display date on main input field and wrapper input fields.
 A10. Return all assertion messages if not silenced.
->``` 	 
+``` 	 
 
 <br>
 
@@ -1497,7 +1498,8 @@ A10. Return all assertion messages if not silenced.
 >
 >Set Events on main and subsequent inputs, wrapper inputs and wrapper control arrows.
 >
->```
+
+```
 B1.  Show Controls on click or focus on main inputs.
 B2.  Set Events on wrapper input arrows.
 B3.  Dissavle context menu on arrows.
@@ -1519,7 +1521,7 @@ B14. Sanitize input to numpad numbers, number keys,
      dissalow characters, allow ctrl or meta, 
      ignore backspace, delete, and left right arrows.
 B15. Keyboard arrow navigation.
->```
+```
 
 <br>
 
