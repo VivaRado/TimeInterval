@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 305 180"
+   xml:space="preserve"
+   version="1.1"
+   id="svg39"
+   sodipodi:docname="time_interval_preview_hma.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs39" /><sodipodi:namedview
+   id="namedview39"
+   pagecolor="#ffffff"
+   bordercolor="#cccccc"
+   borderopacity="1"
+   inkscape:showpageshadow="0"
+   inkscape:pageopacity="1"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="3.2212642"
+   inkscape:cx="118.27654"
+   inkscape:cy="61.46655"
+   inkscape:window-width="1920"
+   inkscape:window-height="952"
+   inkscape:window-x="0"
+   inkscape:window-y="32"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="g11" />
+   <style
+   id="style1">
+      .s1 {
+        stroke-width: 1.3;
+      }
+      .a1{
+          fill: none;
+          stroke: #808080;
+      }
+      .a2 {
+          font-size: 15px;
+          font-family: monospace;
+      }
+      .a3 {
+          font-size: 15px;
+          font-family: monospace;
+          font-weight: bold;
+      }
+      .a4 {
+          font-weight: 700;
+          font-size: 10px;
+          font-family: monospace;
+          text-align: center;
+          fill: #4d4d4d;
+      }
+      .a5 {
+          font-size: 8px;
+          font-family: monospace;
+          text-align: center;
+      }
+      .a6 {
+          font-size: 12px;
+          font-family: monospace;
+          text-align: center;
+      }
+      .a7 {
+          font-size: 10px;
+          font-family: monospace;
+          fill: #666666;
+      }
+      .a8 {
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          font-stretch: normal;
+          font-size: 12px;
+          font-family: monospace;
+          font-variant-ligatures: normal;
+          font-variant-caps: normal;
+          font-variant-numeric: normal;
+          font-variant-east-asian: normal;
+          text-align: center
+      }
+      .a9 {
+          enable-background: new 0 0 306 227;
+          fill: none;
+          stroke: gray;
+      }
+   </style>
+
+   <g
+   id="g39"
+   transform="translate(0,-40)">
+
+  <path
+   class="a1 s1"
+   d="M 196.234,166.375 H 45.567 C 43.044716,166.375 41,164.33028 41,161.808 V 83.192 c 0,-2.522284 2.044716,-4.567 4.567,-4.567 h 150.667 c 2.52228,0 4.567,2.044716 4.567,4.567 v 78.616 c 0,2.52228 -2.04472,4.567 -4.567,4.567 z"
+   id="path1"
+   sodipodi:nodetypes="sssssssss" />
+      <g
+   id="g14">
+          <path
+   class="a1 s1"
+   d="M233.626 62.625v3.75a3.25 3.25 0 0 1-3.25 3.25H44.25a3.25 3.25 0 0 1-3.25-3.25v-3.75m220.75-18h-18.5a3.25 3.25 0 0 0-3.25 3.25v18.5a3.25 3.25 0 0 0 3.25 3.25h18.5a3.25 3.25 0 0 0 3.25-3.25v-18.5a3.25 3.25 0 0 0-3.25-3.25z"
+   id="path2" />
+          <g
+   id="g11">
+              <text
+   class="a2"
+   x="47.8"
+   y="62.624"
+   id="text2">0</text>
+              <text
+   class="a2"
+   x="56.774"
+   y="62.624"
+   id="text3"
+   style="-inkscape-font-specification:'Sans, Normal';font-family:Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:15px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+     sodipodi:role="line"
+     id="tspan43">9</tspan></text>
+              <text
+   class="a2"
+   x="65.748"
+   y="62.624"
+   id="text4"
+   style="-inkscape-font-specification:'Sans, Normal';font-family:Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:15px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+     sodipodi:role="line"
+     id="tspan44">:</tspan></text>
+              <text
+   class="a2"
+   x="70.721001"
+   y="62.624001"
+   id="text5"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+     sodipodi:role="line"
+     id="tspan45"
+     x="70.721001"
+     y="62.624001">2</tspan></text>
+              <text
+   class="a2"
+   x="79.695"
+   y="62.624001"
+   id="text6"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:monospace;-inkscape-font-specification:'monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+     sodipodi:role="line"
+     id="tspan46"
+     x="79.695"
+     y="62.624001">9</tspan></text>
+              
+              <text
+   class="a2"
+   x="97.642998"
+   y="62.624001"
+   id="text8"
+   style="font-size:15px;font-family:monospace"><tspan
+     sodipodi:role="line"
+     id="tspan47"
+     x="97.642998"
+     y="62.624001">P</tspan></text>
+              <text
+   class="a2"
+   x="106.617"
+   y="62.624001"
+   id="text9"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+     sodipodi:role="line"
+     id="tspan48"
+     x="106.617"
+     y="62.624001">M</tspan></text>
+              
+              
+          </g>
+          <g
+   id="g13">
+              <text
+   class="a3"
+   x="243.708"
+   y="62.664"
+   id="text12">•</text>
+              <text
+   class="a3"
+   x="252.5"
+   y="62.664"
+   id="text13">•</text>
+          </g>
+      </g>
+      
+      <g
+   id="g18">
+          <text
+   class="a5 s1"
+   transform="translate(-163.669 -16.448)"
+   x="232.592"
+   y="117.078"
+   id="text17">▲</text>
+          <text
+   class="a5 s1"
+   x="69.211998"
+   y="148.24899"
+   id="text18">▼</text>
+      </g>
+      <g
+   id="g20"
+   transform="translate(0,-14.987805)">
+          <text
+   class="a6 s1"
+   x="64.193001"
+   y="141.78799"
+   id="text19">0</text>
+          <text
+   class="a6 s1"
+   x="71.417999"
+   y="141.78799"
+   id="text20"
+   style="-inkscape-font-specification:'monospace, Normal';font-family:monospace;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;stroke-width:1.3"><tspan
+     sodipodi:role="line"
+     id="tspan39">9</tspan></text>
+      </g>
+      <g
+   id="g22">
+          <text
+   class="a5 s1"
+   x="118.491"
+   y="148.24899"
+   id="text21">▼</text>
+          <text
+   class="a5 s1"
+   transform="translate(-114.39 -16.448)"
+   x="232.881"
+   y="116.697"
+   id="text22">▲</text>
+      </g>
+      
+      <g
+   id="g27"
+   transform="translate(0,-14.987805)">
+          <text
+   class="a6 s1"
+   x="113.573"
+   y="141.78799"
+   id="text26"
+   style="-inkscape-font-specification:'Sans, Normal';font-family:Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;stroke-width:1.3"><tspan
+     sodipodi:role="line"
+     id="tspan40">2</tspan></text>
+          <text
+   class="a6 s1"
+   x="120.797"
+   y="141.78799"
+   id="text27"
+   style="-inkscape-font-specification:'Sans, Normal';font-family:Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;stroke-width:1.3"><tspan
+     sodipodi:role="line"
+     id="tspan41">9</tspan></text>
+      </g>
+      <g
+   id="g29">
+          <text
+   class="a5 s1"
+   x="167.991"
+   y="148.24899"
+   id="text28">▼</text>
+          <text
+   class="a5 s1"
+   transform="translate(-64.89 -16.448)"
+   x="232.881"
+   y="116.697"
+   id="text29">▲</text>
+      </g>
+      
+      <g
+   id="g37"
+   transform="translate(7.4842526,-14.987805)">
+          <text
+   class="a8 s1"
+   x="155.371"
+   y="141.78799"
+   id="text34"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:monospace;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;stroke-width:1.3;-inkscape-font-specification:'monospace, Bold'"><tspan
+     sodipodi:role="line"
+     id="tspan42"
+     x="155.371"
+     y="141.78799">PM</tspan></text>
+          
+          
+          
+      </g>
+      <path
+   class="a9 s1"
+   d="m 93.9,118.02 v 9.09 m -45,-19.497 V 89.75 c 0,-1.794925 1.455075,-3.25 3.25,-3.25 h 38.5 c 1.794925,0 3.25,1.455075 3.25,3.25 v 17.863 m -45,19.497 v -9.22 m 45,19.735 v 17.625 c 0,1.79493 -1.455075,3.25 -3.25,3.25 h -38.5 c -1.794925,0 -3.25,-1.45507 -3.25,-3.25 v -17.625"
+   id="path37"
+   sodipodi:nodetypes="cccssssccccssssc" />
+      <path
+   class="a9 s1"
+   d="m 143.4,118.02 v 9.09 m -45,-19.497 V 89.75 c 0,-1.794925 1.455075,-3.25 3.25,-3.25 h 38.5 c 1.79493,0 3.25,1.455075 3.25,3.25 v 17.863 m -45,19.497 v -9.22 m 45,19.735 v 17.625 c 0,1.79493 -1.45507,3.25 -3.25,3.25 h -38.5 c -1.794925,0 -3.25,-1.45507 -3.25,-3.25 v -17.625"
+   id="path38"
+   sodipodi:nodetypes="cccssssccccssssc" />
+      <path
+   class="a1 s1"
+   d="m 192.9,118.02 v 9.09 m -45,-19.497 V 89.75 c 0,-1.794925 1.45507,-3.25 3.25,-3.25 h 38.5 c 1.79493,0 3.25,1.455075 3.25,3.25 v 17.863 m -45,19.497 v -9.22 m 45,19.735 v 17.625 c 0,1.79493 -1.45507,3.25 -3.25,3.25 h -38.5 c -1.79493,0 -3.25,-1.45507 -3.25,-3.25 v -17.625"
+   id="path39"
+   sodipodi:nodetypes="cccssssccccssssc" />
+    </g>
+</svg>
