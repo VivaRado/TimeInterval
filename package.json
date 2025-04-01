@@ -1,0 +1,41 @@
+{
+  "name": "timeinterval",
+  "version": "2.9.8",
+  "description": "timeinterval user interface",
+  "main": "timeinterval.js",
+  "scripts": {
+    "test": "node test/script.js",
+    "dev": "reload -b -s index.html & gulp --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VivaRado/timeinterval.git"
+  },
+  "keywords": [
+    "date",
+    "parse",
+    "format",
+    "range",
+    "interval",
+    "user interface",
+    "vanilla"
+  ],
+  "author": "vivarado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VivaRado/timeinterval/issues"
+  },
+  "homepage": "https://github.com/VivaRado/timeinterval#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.1.4",
+    "reload": "^3.2.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "exports": {
+    "import": "./timeinterval.js",
+    "require": "./timeinterval.cjs"
+  }
+}

@@ -1,0 +1,231 @@
+:root {
+  --trwd: 5rem; 	/* width of time_input controllers inside the wrap */
+  --trpd: 0.5rem; /* space between time_input controllers */
+  --trwp: 1rem;   /* padding around wrap */
+}
+/* Interval Interface */
+nav[role="timeinterval"] * {
+	box-sizing: border-box;
+}
+nav[role="timeinterval"] .time_input {
+	width: var(--trwd);
+	float: left;
+	margin: 0;
+	display: table;
+	position: relative;
+}
+nav[role="timeinterval"] .time_intvl {
+	position: relative;
+	float: left;
+}
+nav[role="timeinterval"] .time_intvl input,
+nav[role="timeinterval"] .time_input_base {
+	min-width: auto;
+	float: left;
+}
+nav[role="timeinterval"] {
+	float: left;
+	height: auto;
+	margin-bottom: 1em;
+	position: relative;
+	width: 100%;
+}
+nav[role="timeinterval"].range_single .time_intvl:nth-child(2) {
+	display: none !important;
+}
+nav[role="timeinterval"].range_double .time_intvl:nth-child(2){
+	margin-left: 0.5rem;
+}
+nav[role="timeinterval"] .labeled.time_input::after{
+	position: absolute;
+	left: 0px;
+	top: 3.1rem;
+	font-size: 1.1rem;
+	text-align: center;
+	padding: 0 0.5rem;
+	width: calc(100% - 1rem); /* padding related */
+	text-transform: uppercase;
+	font-weight: normal;
+	pointer-events: none;
+	content: attr(data-tkn);
+	color: #bbb;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+nav[role="timeinterval"] .labeled[data-awl].time_input::after{
+	content: attr(data-awl);
+	font-weight: bold;
+}
+nav[role="timeinterval"] .labeled input {
+	padding-top: 1.75rem;
+  height: 4.25rem !important;
+}
+nav[role="timeinterval"] .time_intvl input, 
+nav[role="timeinterval"] .time_input_base {
+	margin: 0px;
+	float: left;
+	min-width: auto !important;
+	position: relative;
+	height: 2.75rem;
+}
+nav[role="timeinterval"] .time_input {
+	margin-right: var(--trpd);
+}
+nav[role="timeinterval"] .time_input:last-of-type{
+	margin-right: 0;
+}
+/**/
+nav[role="timeinterval"] .range_toggle {
+	width: 2.75rem;
+	height: 2.75rem;
+	margin-left: 0.5rem;
+	float: left;
+	position: relative;
+	border: 1px solid #000;
+	border-radius: 2px;
+}
+nav[role="timeinterval"] .btn.range_toggle:after {
+	content: '';
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	line-height: 2.75rem;
+	text-align: center;
+}
+/* range grid */
+nav[role="timeinterval"] .time_intvl {
+	width: 100%;
+}
+nav[role="timeinterval"] .inp {
+	width: 100%;
+}
+nav[role="timeinterval"].range_single > *:nth-child(1) {
+	width: calc( 100% - (2.75rem + 0.5rem) )
+}
+nav[role="timeinterval"].range_double > *:nth-child(1) {
+	width: calc( 50% - ((2.75rem + 0.5rem) / 2) - (0.5rem / 2))
+}
+nav[role="timeinterval"].range_double > *:nth-child(2) {
+	width: calc( 50% - ((2.75rem + 0.5rem) / 2) - (0.5rem / 2))
+}
+/* Timerange wrap */
+nav[role="timeinterval"] .wrap {
+	width: calc( 
+			( var(--tkn_len) * var(--trwd) ) + 
+			( 2 * var(--trwp) ) + 
+			( (var(--tkn_len) - 1) * var(--trpd) ) );
+	padding: var(--trwp);
+}
+nav[role="timeinterval"] .wrap input {
+	border-radius: 0;
+	margin-bottom: 0;
+	width: 100%;
+	text-align: center;
+	text-indent: 0;
+	height: 2.5em;
+	font-size: 1.2rem;
+}
+nav[role="timeinterval"] .wrap .prev,
+nav[role="timeinterval"] .wrap .next {
+	border-radius: 0;
+	margin: auto;
+	text-align: center;
+	padding: 0.5em;
+	float: left;
+	clear: both;
+	width: 100%;
+}
+nav[role="timeinterval"] .wrap {
+	user-select: none;
+	margin: 0 auto;
+	display: none;
+	position: absolute;
+	z-index: 999;
+	top: calc(100% + 0.8rem);
+}
+nav[role="timeinterval"] .act_tinp .wrap {
+	display: block !important;
+}
+/* Style and UX */
+nav[role="timeinterval"].range_double .btn.range_toggle:after {
+	content: '•';
+}
+nav[role="timeinterval"].range_single .btn.range_toggle:after {
+	content: '••';
+}
+nav[role="timeinterval"] .time_input *{
+	font-family: monospace;
+}
+nav[role="timeinterval"] .time_input {
+	font-size: 20px;
+	color: #2d2e2e;
+	font-weight: 700;
+}
+nav[role="timeinterval"] .time_input.act_winp input,
+nav[role="timeinterval"] .time_input.act_winp:hover input {
+	border-color: rgba(0,0,0,1.0);
+}
+nav[role="timeinterval"] .time_input.act_winp input {
+	color: rgba(0,0,0,1.0);
+}
+/* Wrap Style */
+nav[role="timeinterval"] .wrap {
+	border-radius: 0.5rem;
+	box-shadow: inset 0px 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+nav[role="timeinterval"] .wrap {
+	background: rgba(255,255,255,1);
+	border-radius: 0.3em;
+	font-size: 1.2em;
+}
+nav[role="timeinterval"] .wrap input {
+	border-style: solid;
+}
+nav[role="timeinterval"] .wrap .time_input:first-of-type .nav_arrow:first-of-type {
+	border-radius: 0.3rem 0 0 0;
+}
+nav[role="timeinterval"] .wrap .time_input:first-of-type .nav_arrow:last-of-type {
+	border-radius: 0 0 0 0.3rem;
+}
+nav[role="timeinterval"] .wrap .time_input:last-of-type .nav_arrow:first-of-type {
+	border-radius: 0 0.3rem 0 0;
+}
+nav[role="timeinterval"] .wrap .time_input:last-of-type .nav_arrow:last-of-type {
+	border-radius: 0 0 0.3rem 0;
+}
+nav[role="timeinterval"] .wrap .prev,
+nav[role="timeinterval"] .wrap .next {
+	cursor: pointer;
+	font-size: 0.7em;
+	line-height: 1.5rem;
+}
+nav[role="timeinterval"] .wrap .next:after {
+	content: '▲'
+}
+nav[role="timeinterval"] .wrap .prev:after {
+	content: '▼'
+}
+/* Pause CSS transitions */
+nav[role="timeinterval"] .pause_transitions{
+	transition: all 0s;
+}
+nav[role="timeinterval"] .no_pointer {
+	pointer-events: none;
+}
+/* Input Number Appearance */
+nav[role="timeinterval"] input::-webkit-outer-spin-button,
+nav[role="timeinterval"] input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+nav[role="timeinterval"] input[type=number] {
+	-moz-appearance: textfield;
+}
+nav[role="timeinterval"] .alert {
+	display: block;
+	position: relative;
+	float: left;
+	width: 100%;
+}

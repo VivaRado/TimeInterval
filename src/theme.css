@@ -1,0 +1,305 @@
+/* Part of VivaRado UI */
+/* button */
+.btn {
+	font-family: monospace;
+	font-size: 1.2rem;
+	text-decoration: none;
+	cursor: pointer;
+	border: none;
+	height: 2.75rem;
+	font-weight: bold;
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	line-height: 2.65rem;
+	padding: 0 0.8rem;
+}
+.btn::before {
+	position: absolute;
+	display: block;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	content: '';
+	border-radius: 0.3rem;
+
+	color: #000;
+	box-shadow: inset 0px 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+.btn:hover::before {
+	box-shadow: inset 0px 0px 0px 2px rgba(0, 0, 0, 1);
+}
+.btn.cl_bt {
+	clip-path: polygon( 0% 0%, 
+						100% 0%, 
+						100% calc(100% - 4px), 
+						0% calc(100% - 4px));
+}
+.btn.cl_tp {
+	clip-path: polygon( 0% 4px, 
+						100% 4px, 
+						100% 100%,
+						0px 100%);
+}
+/* Input */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+.inp {
+	font-size: 1.5rem;
+	font-family: monospace;
+	height: 2.75rem;
+	width: auto;
+	border-radius: 0 0 0.3rem 0.3rem;
+	padding: 0 0.5rem 0 0.5rem;
+	position: relative;
+	display: block;
+	margin-bottom: 1.5rem;
+	border: none;
+	border-width: 2px;
+	border-style: solid;
+	border-top-width: 0px;
+	background: transparent;
+	transition: clip-path 0.2s;
+	clip-path: polygon( 0% 75%, 
+						4px 75%, 
+						4px 0%, 
+						calc(100% - 4px) 0%, 
+						calc(100% - 4px) 75%, 
+						calc(100% + 1px) 75%, 
+						calc(100% + 1px) 100%, 
+						0% 100%);
+	color: rgba(0, 0, 0, 0.8);
+	border-color: rgba(0, 0, 0, 0.5);
+}
+.inp:not(:read-only):focus { 
+	clip-path: polygon( 0% 1.5%, 
+						4px 1.5%, 
+						4px 0%, 
+						calc(100% - 4px) 0%, 
+						calc(100% - 4px) 1.5%, 
+						calc(100% + 1px) 1.5%, 
+						calc(100% + 1px) 100%, 
+						0% 100%);
+	transition: clip-path 0.2s;
+}
+.inp:not(:read-only):hover { 
+	color: rgba(0, 0, 0, 1);
+	border-color: rgba(0, 0, 0, 1);
+}
+:root {
+  --cl_space: 10px;
+  --cl_space_h: 4px;
+}
+.inp.cl_vert {
+	border-radius: 0;
+	clip-path: polygon( 0% var(--cl_space), 
+						4px var(--cl_space), 
+						4px 10%, 
+						calc(100% - 4px) 10%, 
+						calc(100% - 4px) var(--cl_space), 
+						calc(100% + 1px) var(--cl_space), 
+						calc(100% + 1px) calc(100% - var(--cl_space)), 
+						calc(100% - 4px) calc(100% - var(--cl_space)),
+						calc(100% - 4px) 90%, 
+						4px 90%,
+						4px calc(100% - var(--cl_space)), 
+						0% calc(100% - var(--cl_space)));
+}
+.inp.cl_vert:not(:read-only):focus {
+	clip-path: polygon( 0% var(--cl_space_h), 
+						4px var(--cl_space_h), 
+						4px 10%, 
+						calc(100% - 4px) 10%, 
+						calc(100% - 4px) var(--cl_space_h), 
+						calc(100% + 1px) var(--cl_space_h), 
+						calc(100% + 1px) calc(100% - var(--cl_space_h)), 
+						calc(100% - 4px) calc(100% - var(--cl_space_h)),
+						calc(100% - 4px) 90%, 
+						4px 90%,
+						4px calc(100% - var(--cl_space_h)), 
+						0% calc(100% - var(--cl_space_h)));
+}
+/* TimeRange VivaRado UI integration */
+nav[role="timeinterval"].range_double .time_pick:nth-child(1) input{
+	border-radius: 0 0 0 0.3rem;
+}
+nav[role="timeinterval"].range_double .time_pick:nth-child(2) input{
+	border-radius: 0 0 0.3rem 0;
+}
+nav[role="timeinterval"].range_double .time_pick:nth-child(2){
+	margin-left: 0.5rem;
+}
+nav[role="timeinterval"].range_double .time_pick:nth-child(1) > .inp{
+	clip-path: polygon( 0% 75%, 
+						4px 75%, 
+						4px 0%, 
+						calc(100% - 4px) 0%, 
+						calc(100% - 4px) calc(100% - 2px), 
+						calc(100% + 1px) calc(100% - 2px), 
+						calc(100% + 1px) 100%, 
+						0% 100%)
+}
+nav[role="timeinterval"].range_double .time_pick:nth-child(2) > .inp{
+	clip-path: polygon( 0% calc(100% - 2px), 
+						4px calc(100% - 2px), 
+						4px 0%, 
+						calc(100% - 4px) 0%, 
+						calc(100% - 4px) 75%, 
+						calc(100% + 1px) 75%, 
+						calc(100% + 1px) 100%, 
+						0% 100%)
+}
+nav[role="timeinterval"].range_double .time_pick:nth-child(2) > .inp:not(:read-only):focus { 
+	clip-path: polygon( 0% calc(100% - 2px), 
+						4px calc(100% - 2px), 
+						4px 0%, 
+						calc(100% - 4px) 0%, 
+						calc(100% - 4px) 1.5%, 
+						calc(100% + 1px) 1.5%, 
+						calc(100% + 1px) 100%, 
+						0% 100%);
+}
+nav[role="timeinterval"].range_double .time_pick:nth-child(1) > .inp:not(:read-only):focus { 
+	clip-path: polygon( 0% 0px, 
+						4px 0px, 
+						4px 0%, 
+						calc(100% - 4px) 0%, 
+						calc(100% - 4px) calc(100% - 2px), 
+						calc(100% + 1px) calc(100% - 2px), 
+						calc(100% + 1px) 100%, 
+						0% 100%);
+}
+/* Alert Messages */
+:root{
+	--c_warning: 		rgb(255, 229, 169, 1);
+	--c_warning_dark: 	rgb(166, 93 , 0  , 1);
+	--c_error: 			rgb(255, 166, 166, 1);
+	--c_error_dark: 	rgb(138, 17 , 17 , 1);
+	--c_success: 		rgb(172, 240, 191, 1);
+	--c_success_dark: 	rgb(0  , 117, 33 , 1);
+	--c_info: 			rgb(217, 237, 247, 1);
+	--c_info_dark: 		rgb(58 , 135, 173, 1);
+}
+.alert ul {
+	margin-bottom: 1rem;
+	list-style: none;
+	padding: 0 !important;
+}
+.alert li{
+	padding: 0.5rem 0.8rem 0.55rem 0.8rem;
+	margin-bottom: 0.5rem;
+	border-radius: 3px;
+	line-height: 1.4rem;
+}
+.alert li:last-of-type{
+	margin-bottom: 0;
+}
+.alert.invalid,
+.alert.valid {
+
+	border-width: 1px;
+	border-style: solid;
+
+}
+.alert.reports-alert {
+	margin: 0;
+	display: block;
+}
+.alert.reports-alert > ul{
+	padding-left: 0 !important;
+}
+.alert-heading {
+	color: inherit
+}
+.alert .close {
+	position: relative;
+	top: -2px;
+	right: -21px;
+	line-height: 18px
+}
+.alert-block {
+	padding-top: 14px;
+	padding-bottom: 14px
+}
+.alert-block>p,
+.alert-block>ul {
+	margin-bottom: 0
+}
+.alert-block p+p {
+	margin-top: 5px
+}
+.alert {
+    clear: both;
+    display: block;
+}
+.alert .info {
+	color: var(--c_info_dark);
+	background-color: var(--c_info);
+}
+.alert .error {
+	color: var(--c_error_dark);
+	background-color: var(--c_error);
+}
+.alert .success{
+	color: var(--c_success_dark);
+	background-color: var(--c_success);
+}
+.alert .warning{
+	color: var(--c_warning_dark);
+	background-color: var(--c_warning);
+}
+/* TimeRange VivaRado UI integration */
+nav[role="timeinterval"].range_double .time_intvl:nth-child(1) input{
+	border-radius: 0 0 0 0.3rem;
+}
+nav[role="timeinterval"].range_double .time_intvl:nth-child(2) input{
+	border-radius: 0 0 0.3rem 0;
+}
+nav[role="timeinterval"].range_double .time_intvl:nth-child(1) > .inp{
+	clip-path: polygon( 0% 75%, 
+						4px 75%, 
+						4px 0%, 
+						calc(100% - 4px) 0%, 
+						calc(100% - 4px) calc(100% - 2px), 
+						calc(100% + 1px) calc(100% - 2px), 
+						calc(100% + 1px) 100%, 
+						0% 100%)
+}
+nav[role="timeinterval"].range_double .time_intvl:nth-child(2) > .inp{
+	clip-path: polygon( 0% calc(100% - 2px), 
+						4px calc(100% - 2px), 
+						4px 0%, 
+						calc(100% - 4px) 0%, 
+						calc(100% - 4px) 75%, 
+						calc(100% + 1px) 75%, 
+						calc(100% + 1px) 100%, 
+						0% 100%)
+}
+nav[role="timeinterval"].range_double .time_intvl:nth-child(2) > .inp:not(:read-only):focus { 
+	clip-path: polygon( 0% calc(100% - 2px), 
+						4px calc(100% - 2px), 
+						4px 0%, 
+						calc(100% - 4px) 0%, 
+						calc(100% - 4px) 1.5%, 
+						calc(100% + 1px) 1.5%, 
+						calc(100% + 1px) 100%, 
+						0% 100%);
+}
+nav[role="timeinterval"].range_double .time_intvl:nth-child(1) > .inp:not(:read-only):focus { 
+	clip-path: polygon( 0% 0px, 
+						4px 0px, 
+						4px 0%, 
+						calc(100% - 4px) 0%, 
+						calc(100% - 4px) calc(100% - 2px), 
+						calc(100% + 1px) calc(100% - 2px), 
+						calc(100% + 1px) 100%, 
+						0% 100%);
+}
+nav[role="timeinterval"] .btn.range_toggle {
+	border: none;
+}

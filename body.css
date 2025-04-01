@@ -1,0 +1,86 @@
+* {
+	box-sizing: border-box;
+}
+html,
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+	overflow-x: visible;
+}
+body {
+	padding: 2em;
+}
+section {
+	clear: both;
+	position: relative;
+	display: table;
+}
+.command_buttons .btn {
+	clear: both;
+	position: relative;
+	display: table;
+	margin-bottom: 0.5rem;
+}
+.timeintervals,
+.command_buttons,
+.hr_sep {
+	margin: 0 auto;
+	width: 80%;
+}
+.timeintervals,
+.command_buttons {
+	padding: 2rem;
+}
+code {
+	background: rgba(0,0,0,0.03);
+	padding: 1rem;
+	border-radius: 0.3rem;
+	width: 100%;
+	display: block;
+	float: left;
+	clear: both;
+}
+code ul {
+	padding-left: 1rem;
+	margin: 0;
+}
+h3{
+	display: block;
+	clear: both;
+	float: left;
+	width: 100%;
+}
+section hr {
+	margin-top: 1rem;
+	float: left;
+	width: 100%;
+	background-color: transparent;
+}
+section hr,
+.hr_sep {
+	border: 0; 
+	border-top: 2px solid #eee; 
+}
+.alert.inline-alert ul {
+	margin-bottom: 0;
+}
+table {
+	border-spacing: 4px 0;
+}
+th,td {
+    border-bottom: 2px solid rgba(255,255,255,0.6);
+    padding: 0.8rem;
+    border-radius: 0;
+}
+tr:last-child td {
+	border-bottom: none;
+}
+code > p {
+	margin-top: 0;
+}
+.nw {
+	white-space: nowrap;
+}

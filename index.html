@@ -1,0 +1,277 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>TimeInterval</title>
+		<link rel="stylesheet" type="text/css" href="./body.css" />
+		<link rel="stylesheet" type="text/css" href="./src/timeinterval.css" />
+		<link rel="stylesheet" type="text/css" href="./src/theme.css" />
+		<link rel="icon" href="./_README/assets/media/vrd_logo_fill.svg" sizes="any" type="image/svg+xml">
+	</head>
+	<body class="theme_a">
+		<script type="module">
+			import {TimeInterval} from './src/timeinterval.esm.js'
+			var tp_d_e = document.querySelectorAll(".timeinterval-24h");
+			var tp_a_e = document.querySelector(".timeinterval-dmy");
+			var tp_a = new TimeInterval(tp_a_e, {
+				format: "dd/MM/yyyy",
+				start_time: "05/11/2450",
+				range: false,
+				labels: true,
+				aware_label: true,
+				labels_days: ["Κυρ", "Δευ", "Τρι", "Τετ", "Πεμ", "Παρ", "Σαβ" ],
+				labels_mths: ["Qañ", "Aqp", "Nau", "Säu", "Mam", "Mau", "Şil", "Tam", "Qır", "Qaz", "Qar", "Jel"],
+				ast_value: true,
+				//upstream_input: false,
+				keyboard_arrow: false,
+				onhide: function() {
+					console.log('hidden')
+				}
+			});
+			var tp_b = new TimeInterval(document.querySelectorAll(".timeinterval-my"), {
+				format: "MM/yyyy",
+				range: true,
+				ast_intvl: true,
+				ast_value: true
+			});
+			var tp_c = new TimeInterval(document.querySelectorAll(".timeinterval-12h"), {
+				format: "hh:mm a",
+				range: true,
+				ast_intvl: true,
+				ast_value: true,
+				ast_silent: true
+			});
+			var tp_d = new TimeInterval(tp_d_e, {
+				format: "HH:mm",
+				start_time: "22:21",
+				range: true,
+				ast_intvl: true,
+				ast_value: true,
+				ast_silent: false
+			});
+			tp_d_e[0].closest('nav').querySelector('.range_toggle').click();
+			document.querySelector(".senddate").addEventListener("click", function () {
+				tp_a.TimeInterval.setDate("13/11/2400", 0);
+			});
+			document.querySelector(".senddate_false").addEventListener("click", function () {
+				tp_b.TimeInterval.setDate( "11/2400", 0);
+			});
+			document.querySelector(".sendtime").addEventListener("click", function () {
+				tp_c.TimeInterval.setDate( "05:21 AM", 0);
+			});
+			document.querySelector(".sendtime_false").addEventListener("click", function () {
+				tp_c.TimeInterval.setDate( "11:00 PM", 0);
+			});
+			document.querySelector(".sendtime_second").addEventListener("click", function () {
+				tp_d.TimeInterval.setDate( "08:10", 1);
+			});
+		</script>
+		<section class="timeintervals">
+			<h3>Day Month Year:</h3>
+			<nav role="timeinterval" class="">
+				<input
+					type="text"
+					class="inp timeinterval-dmy"
+					placeholder="Date Initial"/>
+			</nav>
+			<code>
+				<p>
+					Parameters of the above:
+				</p>
+				<table>
+					<tr>
+						<td><b>format</b></td>
+						<td class="nw">"dd/MM/yyyy"</td>
+						<td>provide the date format.</td>
+					</tr>
+					<tr>
+						<td><b>start_time</b></td>
+						<td class="nw">"05/11/2450"</td>
+						<td>provide a datestring for initiation.</td>
+					</tr>
+					<tr>
+						<td><b>range</b></td>
+						<td>false</td>
+						<td>no splitting button, given only one input.</td>
+					</tr>
+					<tr>
+						<td><b>labels</b></td>
+						<td>true</td>
+						<td>show labels over wrap input field.</td>
+					</tr>
+					<tr>
+						<td><b>aware_label</b></td>
+						<td>true</td>
+						<td>names of days and months. requires labels parameter set to true.</td>
+					</tr>
+					<tr>
+						<td><b>labels_days</b></td>
+						<td>["Κυρ", "Σαβ", "Παρ", "Πεμ", "Τετ", "Τρι", "Δευ"]</td>
+						<td>Example array of day names in greek, default is english.</td>
+					</tr>
+					<tr>
+						<td><b>labels_mths</b></td>
+						<td>["Jek", "Qañ", "Aqp", "Naw", "Säw", "Mam", "Maw", "Şil", "Tam", "Qır", "Qaz", "Qar" ]</td>
+						<td>Example array of month names in kazakh, default is english.</td>
+					</tr>
+					<tr>
+						<td><b>ast_value</b></td>
+						<td>true</td>
+						<td>assert date value.</td>
+					</tr>
+					<tr>
+						<td><b>upstream_input</b></td>
+						<td>false</td>
+						<td>prevent upstream input.</td>
+					</tr>
+					<tr>
+						<td><b>keyboard_arrow</b></td>
+						<td>false</td>
+						<td>prevent keyboard arrow input.</td>
+					</tr>
+				</table> 
+			</code>
+			<hr>
+			<h3>Month Year:</h3>
+			<nav role="timeinterval" class="">
+				<input
+					type="text"
+					class="inp timeinterval-my"
+					placeholder="Date Initial"/>
+				<input
+					type="text"
+					class="inp timeinterval-my"
+					placeholder="Date Terminal"/>
+			</nav>
+			<code>
+				<p>
+					Parameters of the above:
+				</p>
+				<table>
+					<tr>
+						<td><b>format</b></td>
+						<td class="nw">"MM/yyyy"</td>
+						<td>provide the date format.</td>
+					</tr>
+					<tr>
+						<td><b>range</b></td>
+						<td>true</td>
+						<td>adds splitting button, given two inputs.</td>
+					</tr>
+					<tr>
+						<td><b>ast_intvl</b></td>
+						<td>true</td>
+						<td>assert interval difference.</td>
+					</tr>
+					<tr>
+						<td><b>ast_value</b></td>
+						<td>true</td>
+						<td>assert date value.</td>
+					</tr>
+				</table> 
+			</code>
+			<hr>
+			<h3>Twelve hour clock:</h3>
+			<nav role="timeinterval" class="">
+				<input
+					type="text"
+					class="inp timeinterval-12h"
+					placeholder="Time"/>
+				<input
+					type="text"
+					class="inp timeinterval-12h"
+					placeholder="Time T"/>
+			</nav>
+			<code>
+				<p>
+					Parameters of the above:
+				</p>
+				<table>
+					<tr>
+						<td><b>format</b></td>
+						<td class="nw">"hh:mm a"</td>
+						<td>provide the date format.</td>
+					</tr>
+					<tr>
+						<td><b>range</b></td>
+						<td>true</td>
+						<td>adds splitting button, given two inputs.</td>
+					</tr>
+					<tr>
+						<td><b>ast_intvl</b></td>
+						<td>true</td>
+						<td>assert interval difference.</td>
+					</tr>
+					<tr>
+						<td><b>ast_value</b></td>
+						<td>true</td>
+						<td>assert date value.</td>
+					</tr>
+					<tr>
+						<td><b>ast_silent</b></td>
+						<td>true</td>
+						<td>do not show assertion reports.</td>
+					</tr>
+				</table> 
+			</code>
+			<hr>
+			<h3>Twenty-four hour clock:</h3>
+			<nav role="timeinterval" class="">
+				<input
+					type="text"
+					class="inp timeinterval-24h"
+					placeholder="Time Initial"/>
+				<input
+					type="text"
+					class="inp timeinterval-24h"
+					placeholder="Time Terminal"/>
+			</nav>
+			<code>
+				<p>
+					Parameters of the above:
+				</p>
+				<table>
+					<tr>
+						<td><b>format</b></td>
+						<td class="nw">"HH:mm"</td>
+						<td>provide the date format.</td>
+					</tr>
+					<tr>
+						<td><b>start_time</b></td>
+						<td class="nw">"22:21"</td>
+						<td>provide a datestring for initiation.</td>
+					</tr>
+					<tr>
+						<td><b>range</b></td>
+						<td>true</td>
+						<td>adds splitting button, given two inputs.</td>
+					</tr>
+					<tr>
+						<td><b>ast_intvl</b></td>
+						<td>true</td>
+						<td>assert interval difference.</td>
+					</tr>
+					<tr>
+						<td><b>ast_value</b></td>
+						<td>true</td>
+						<td>assert date value.</td>
+					</tr>
+					<tr>
+						<td><b>ast_silent</b></td>
+						<td>false</td>
+						<td>do not show assertion reports.</td>
+					</tr>
+				</table> 
+			</code>
+		</section>
+		<hr class="hr_sep">
+		<section class="command_buttons">
+			<h3>Set Date (fn):</h3>
+			<div class="btn senddate">Send 13/11/2400 to datepicker</div>
+			<div class="btn senddate_false">Send 11/2400 to datepicker</div>
+			<div class="btn sendtime">Send 05:21 AM to timeinterval</div>
+			<div class="btn sendtime_false">Send 11:00 PM to timeinterval</div>
+			<div class="btn sendtime_second">Send 08:10 to timeinterval 2</div>
+		</section>
+	</body>
+</html>
