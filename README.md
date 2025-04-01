@@ -1792,14 +1792,15 @@ Here is an overview of the **Assertion** functions:
 >
 > Assert date for various conditions.
 > 
->```
+
+```
 C1.  Assert the a date string being parseable, 
 C2.  Assert the symbol of a date string for maximum digit length 
      and maximum unit length - if day calculate max days in month, 
 C3.  Assert for minimum year, 
 C4.  Assert for value overflow at 24 hours, 
      Assert for value overflow at 60 minutes.
->```
+```
 
 ---
 
