@@ -1,3 +1,26 @@
+/* Header */
+.header_logo {
+	width: 7.8rem;
+	height: 7.8rem;
+	padding: 1rem;
+}
+.header_project {
+	width: 22rem;
+	height: 7.8rem;
+}
+header {
+	width: 100%;
+	position: relative;
+	clear: both;
+	float: left;
+	border-bottom: 2px solid #eee;
+	margin-bottom: 2rem;
+}
+.header_logo {
+	float: right;
+	filter: invert(1);
+}
+
 /* Part of VivaRado UI */
 /* button */
 .btn {
