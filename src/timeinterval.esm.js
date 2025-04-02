@@ -1,4 +1,4 @@
-// vivarado / timeinterval / interface ∞ 2.9.8
+// vivarado / timeinterval / interface ∞ 3.0.8
 import { formatDate, parseDate, assertDateUniform, _mths, _days } from "./dfp.js";
 import { createEl, classOps, displayAlert, allowedIntegerInput } from "./utils.js";
 import { assertDate, assertRange } from "./assertions.js";
