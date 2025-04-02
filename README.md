@@ -70,7 +70,7 @@ The source consists of **TimeInterval**, **DateFormatParse**, **Assertions** and
 <br>
 
 
-We simplify the process of time selection by offering multi input methods. You can input the time directly to the main input fields or adjust the units in a dropdown. Navigation is made easy via keyboard arrows that allow for quick adjustments. We offer assertions to maintain the validity of date input, may that be in the main input field or the time unit input fields in the dropdown. Labels simplify the proccess, by informing the user for the name of the day and month, in a compact fashion.
+We simplify the process of time selection by offering multi input methods. You can input the time directly to the main input fields or adjust the units in a dropdown. Navigation is made easy via keyboard arrows that allow for quick adjustments. We offer assertions to maintain the validity of date input, may that be in the main input field or the time unit input fields in the dropdown. Labels simplify the process, by informing the user for the name of the day and month, in a compact fashion.
 
 #### Day Month Year:
 
