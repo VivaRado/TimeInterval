@@ -3,6 +3,7 @@
     <style>
         .s1{stroke-width:1.3}.a1{fill:none;}.a2,.a3,.a5,.a6{font-family:monospace}.a5,.a6{text-align:center}.a2{font-size:15px}.a3{font-size:15px;font-weight:700}.a5{font-size:8px}.a6{font-size:12px}.c1 {stroke:rgb(190,190,190);}
         @media (prefers-color-scheme: dark) { 
+            svg { background-color: #000; } 
             .a2, .a5, .a3, .a6 { fill: #fff; }
             .a1, .c1 { stroke:rgb(80,80,80);} 
         }
