@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg viewBox="0 0 305 180" xml:space="preserve" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <style>
-        .s1{stroke-width:1.3}.a1{fill:none;stroke:gray}.a2{font-size:15px}.a2,.a3,.a5,.a6{font-family:monospace}.a3{font-size:15px;font-weight:700}.a5,.a6{font-size:8px;text-align:center}.a6{font-size:12px}.a9{enable-background:new 0 0 306 227;fill:none;stroke:gray}
+        .s1{stroke-width:1.3}.a1{fill:none;}.a2,.a3,.a5,.a6{font-family:monospace}.a5,.a6{text-align:center}.a2{font-size:15px}.a3{font-size:15px;font-weight:700}.a5{font-size:8px}.a6{font-size:12px}.c1 {stroke:rgb(190,190,190);}
+        @media (prefers-color-scheme: dark) { 
+            svg { background-color: #000; } 
+            .a2, .a5, .a3, .a6 { fill: #fff; }
+            .a1, .c1 { stroke:rgb(80,80,80);} 
+        }
     </style>
-    <g transform="translate(0 -40)">
-        <path class="a1 s1" d="M196.234 166.375H45.567A4.567 4.567 0 0 1 41 161.808V83.192a4.567 4.567 0 0 1 4.567-4.567h150.667a4.567 4.567 0 0 1 4.567 4.567v78.616a4.567 4.567 0 0 1-4.567 4.567z"/>
-        <path class="a1 s1" d="M233.626 62.625v3.75a3.25 3.25 0 0 1-3.25 3.25H44.25a3.25 3.25 0 0 1-3.25-3.25v-3.75m220.75-18h-18.5a3.25 3.25 0 0 0-3.25 3.25v18.5a3.25 3.25 0 0 0 3.25 3.25h18.5a3.25 3.25 0 0 0 3.25-3.25v-18.5a3.25 3.25 0 0 0-3.25-3.25z"/>
+    <g transform="translate(0 -30)">
+        <path class="a1 c1 s1" d="M196.234 166.375H45.567A4.567 4.567 0 0 1 41 161.808V83.192a4.567 4.567 0 0 1 4.567-4.567h150.667a4.567 4.567 0 0 1 4.567 4.567v78.616a4.567 4.567 0 0 1-4.567 4.567z"/>
+        <path class="a1 c1 s1" d="M233.626 62.625v3.75a3.25 3.25 0 0 1-3.25 3.25H44.25a3.25 3.25 0 0 1-3.25-3.25v-3.75m220.75-18h-18.5a3.25 3.25 0 0 0-3.25 3.25v18.5a3.25 3.25 0 0 0 3.25 3.25h18.5a3.25 3.25 0 0 0 3.25-3.25v-18.5a3.25 3.25 0 0 0-3.25-3.25z"/>
         <text class="a2" x="47.8" y="62.624">09:29 PM</text>
         <text class="a3" x="243.708" y="62.664">•</text>
         <text class="a3" x="252.5" y="62.664">•</text>
@@ -18,8 +23,8 @@
         <text class="a6 s1" x="64.193" y="126.8">09</text>
         <text class="a6 s1" x="113.573" y="126.8">29</text>
         <text class="a6 s1" x="162.855" y="126.8">PM</text>
-        <path id="a" class="a9 s1" d="M93.9 118.02v9.09m-45-19.497V89.75a3.25 3.25 0 0 1 3.25-3.25h38.5a3.25 3.25 0 0 1 3.25 3.25v17.863m-45 19.497v-9.22m45 19.735v17.625a3.25 3.25 0 0 1-3.25 3.25h-38.5a3.25 3.25 0 0 1-3.25-3.25v-17.625"/>
-        <use xlink:href="#a" transform="translate(49.5)"/>
-        <use xlink:href="#a" transform="translate(99)"/>
+        <path id="a" class="a1 c1 s1" d="M93.9 118.02v9.09m-45-19.497V89.75a3.25 3.25 0 0 1 3.25-3.25h38.5a3.25 3.25 0 0 1 3.25 3.25v17.863m-45 19.497v-9.22m45 19.735v17.625a3.25 3.25 0 0 1-3.25 3.25h-38.5a3.25 3.25 0 0 1-3.25-3.25v-17.625"/>
+        <use class="c1" xlink:href="#a" transform="translate(49.5)"/>
+        <use class="c1" xlink:href="#a" transform="translate(99)"/>
     </g>
 </svg>

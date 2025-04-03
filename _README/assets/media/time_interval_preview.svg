@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg viewBox="0 0 305 180" xml:space="preserve" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg viewBox="0 0 305 180" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <style>
-        .s1{stroke-width:1.3}.a1{fill:none;stroke:gray}.a2,.a3,.a4,.a5,.a6,.a7,.a8{font-family:monospace}.a4,.a5,.a6,.a8{text-align:center}.a2{font-size:15px}.a3{font-size:15px;font-weight:700}.a4{font-weight:700;font-size:10px;fill:#4d4d4d}.a5{font-size:8px}.a6,.a8{font-size:12px}.a7{font-size:10px;fill:#666}.a9{enable-background:new 0 0 306 227;fill:none;stroke:gray}
+        .s1{stroke-width:1.3}.a1{fill:none;}.a2,.a3,.a4,.a5,.a6,.a7,.a8{font-family:monospace}.a4,.a5,.a6,.a8{text-align:center}.a2{font-size:15px}.a3{font-size:15px;font-weight:700}.a4{font-weight:700;font-size:10px;fill:rgb(77,77,77);} .a5{font-size:8px}.a6{font-size:12px}.a7{font-size:10px;fill:rgb(102,102,102);}.c1 {stroke:rgb(190,190,190);}
+        @media (prefers-color-scheme: dark) { 
+            svg { background-color: #000; } 
+            .a2, .a5, .a3, .a6 { fill: #fff; }
+            .a1, .c1 { stroke:rgb(80,80,80);} 
+        }
     </style>
     <g transform="translate(0,-40)">
-        <path class="a1 s1" d="M 196.234,182.375 H 45.567 C 43.044716,182.375 41,180.33028 41,177.808 V 83.192 c 0,-2.522284 2.044716,-4.567 4.567,-4.567 h 150.667 c 2.52228,0 4.567,2.044716 4.567,4.567 v 94.616 c 0,2.52228 -2.04472,4.567 -4.567,4.567 z"/>
-        <path class="a1 s1" d="M233.626 62.625v3.75a3.25 3.25 0 0 1-3.25 3.25H44.25a3.25 3.25 0 0 1-3.25-3.25v-3.75m220.75-18h-18.5a3.25 3.25 0 0 0-3.25 3.25v18.5a3.25 3.25 0 0 0 3.25 3.25h18.5a3.25 3.25 0 0 0 3.25-3.25v-18.5a3.25 3.25 0 0 0-3.25-3.25z"/>
+        <path class="a1 c1 s1" d="M 196.234,182.375 H 45.567 C 43.044716,182.375 41,180.33028 41,177.808 V 83.192 c 0,-2.522284 2.044716,-4.567 4.567,-4.567 h 150.667 c 2.52228,0 4.567,2.044716 4.567,4.567 v 94.616 c 0,2.52228 -2.04472,4.567 -4.567,4.567 z"/>
+        <path class="a1 c1 s1" d="M233.626 62.625v3.75a3.25 3.25 0 0 1-3.25 3.25H44.25a3.25 3.25 0 0 1-3.25-3.25v-3.75m220.75-18h-18.5a3.25 3.25 0 0 0-3.25 3.25v18.5a3.25 3.25 0 0 0 3.25 3.25h18.5a3.25 3.25 0 0 0 3.25-3.25v-18.5a3.25 3.25 0 0 0-3.25-3.25z"/>
         <text class="a2" x="47.8" y="62.624">01/04/2025</text>
         <text class="a3" x="243.708" y="62.664">•</text>
         <text class="a3" x="252.5" y="62.664">•</text>
@@ -13,16 +18,16 @@
             <text class="a5 s1" x="69" y="100.63">▲</text>
             <text class="a5 s1" x="69" y="164.249">▼</text>
         </g>
-        <use xlink:href="#b" transform="translate(49.5)"/>
-        <use xlink:href="#b" transform="translate(99)"/>
-        <path id="a" class="a9 s1" d="M93.9 118.02v25.09m-45-35.497V89.75a3.25 3.25 0 0 1 3.25-3.25h38.5a3.25 3.25 0 0 1 3.25 3.25v17.863m-45 35.497v-25.22m45 35.735v17.625a3.25 3.25 0 0 1-3.25 3.25h-38.5a3.25 3.25 0 0 1-3.25-3.25v-17.625"/>
-        <use xlink:href="#a" transform="translate(49.5)"/>
-        <use xlink:href="#a" transform="translate(99)"/>
+        <use class="a5" xlink:href="#b" transform="translate(49.5)"/>
+        <use class="a5" xlink:href="#b" transform="translate(99)"/>
+        <path id="a" class="a1 c1 s1" d="M93.9 118.02v25.09m-45-35.497V89.75a3.25 3.25 0 0 1 3.25-3.25h38.5a3.25 3.25 0 0 1 3.25 3.25v17.863m-45 35.497v-25.22m45 35.735v17.625a3.25 3.25 0 0 1-3.25 3.25h-38.5a3.25 3.25 0 0 1-3.25-3.25v-17.625"/>
+        <use class="c1" xlink:href="#a" transform="translate(49.5)"/>
+        <use class="c1" xlink:href="#a" transform="translate(99)"/>
         <text class="a4 s1" x="62.5" y="125.5">TUE</text>
         <text class="a6 s1" x="64.193" y="142">01</text>
         <text class="a4 s1" x="112.396" y="125.5">APR</text>
         <text class="a6 s1" x="113.573" y="142">04</text>
         <text class="a7 s1" x="159" y="125.5">YEAR</text>
-        <text class="a8 s1" x="156" y="142">2025</text>
+        <text class="a6 s1" x="156" y="142">2025</text>
     </g>
 </svg>
