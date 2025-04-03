@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg viewBox="0 0 305 180" xml:space="preserve" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <style>
+        .bg { fill: #FFF; }
         .s1{stroke-width:1.3}.a1{fill:none;}.a2,.a3,.a5,.a6{font-family:monospace}.a5,.a6{text-align:center}.a2{font-size:15px}.a3{font-size:15px;font-weight:700}.a5{font-size:8px}.a6{font-size:12px}.c1 {stroke:rgb(190,190,190);}
         @media (prefers-color-scheme: dark) { 
-            svg { background-color: #000; } 
             .a2, .a5, .a3, .a6 { fill: #fff; }
-            .a1, .c1 { stroke:rgb(80,80,80);} 
+            .a1, .c1 { stroke:rgb(80,80,80);}
+            .bg { fill: #000; }
         }
     </style>
-    <g transform="translate(0 -30)">
+    <rect class="bg" width="100%" height="100%" x="0" y="0" rx="3" ry="3" />
+    <g transform="translate(0 -25)">
         <path class="a1 c1 s1" d="M196.234 166.375H45.567A4.567 4.567 0 0 1 41 161.808V83.192a4.567 4.567 0 0 1 4.567-4.567h150.667a4.567 4.567 0 0 1 4.567 4.567v78.616a4.567 4.567 0 0 1-4.567 4.567z"/>
         <path class="a1 c1 s1" d="M233.626 62.625v3.75a3.25 3.25 0 0 1-3.25 3.25H44.25a3.25 3.25 0 0 1-3.25-3.25v-3.75m220.75-18h-18.5a3.25 3.25 0 0 0-3.25 3.25v18.5a3.25 3.25 0 0 0 3.25 3.25h18.5a3.25 3.25 0 0 0 3.25-3.25v-18.5a3.25 3.25 0 0 0-3.25-3.25z"/>
         <text class="a2" x="47.8" y="62.624">09:29 PM</text>
