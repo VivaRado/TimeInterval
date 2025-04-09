@@ -1,6 +1,6 @@
 {
   "name": "timeintervalui",
-  "version": "3.0.5",
+  "version": "3.0.9",
   "description": "timeinterval user interface",
   "main": "timeinterval.js",
   "scripts": {

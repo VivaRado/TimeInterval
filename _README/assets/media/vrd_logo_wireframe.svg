@@ -2,7 +2,6 @@
 	 viewBox="0 0 122 122" style="enable-background:new 0 0 122 122;" xml:space="preserve">
 	<style>
 	    #vrd_logo_wireframe {
-	   		stroke: #000;
 	   		fill:none;
 	   		stroke-width:2;
 	   		stroke-miterlimit:10;
@@ -14,7 +13,10 @@
 	    }
       .bg { fill: #FFF; }
       .pref {transform-origin: center center; transform: scale(0.9, 0.9);}
-      @media (prefers-color-scheme: dark) { .wire{ stroke: #fff; } }
+      @media (prefers-color-scheme: dark) { 
+      	.wire{ stroke: #fff; }
+      	.bg { fill: #000; }
+      }
    </style>
    <rect class="bg" width="100%" height="100%" x="0" y="0" rx="5" ry="5" />
 	<g class="pref" transform="scale(0.9)">
