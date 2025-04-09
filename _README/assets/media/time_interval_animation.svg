@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 305 180" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style>
+        .bg{fill:#FFF}.s1{stroke-width:1.3}.a1{fill:none}.a2,.a3,.a4,.a5,.a6,.a7,.a8{font-family:monospace}.a4,.a5,.a6,.a8{text-align:center}.a2{font-size:15px}.a3{font-size:15px;font-weight:700}.a4{font-weight:700;font-size:10px;fill:#4d4d4d}.a5{font-size:8px}.a6{font-size:12px}.a7{font-size:10px;fill:#666}.c1{stroke:#bebebe}.cr,.crp path{fill:#000;stroke:#000;stroke-linejoin:round}.crp .arw{stroke-width:2.5}.crp .hnd{stroke-width:1}.crp .crt{stroke-width:2.5}@media (prefers-color-scheme: dark){.a2,.a5,.a3,.a6{fill:#fff}.a1,.c1{stroke:#505050}.bg{fill:#000}.cr,.crp path{fill:#fff;stroke:#fff}}@media print{.fade-in{opacity:1!important}.crp{opacity:0}.wrap_init{opacity:1!important}}:root{--path_a:path("M100 200A100 100 0 00200 105");--path_b:path("M200 105A100 100 0 0172 94.5")}@media only screen{.fade-in{opacity:1;animation-name:fadeInOpacity;animation-iteration-count:1;animation-timing-function:ease-in;animation-duration:3s}@keyframes fadeInOpacity{0%{opacity:0}100%{opacity:1}}.crp{animation:move 3s infinite alternate ease-in-out;offset-rotate:0deg}.dot_a{animation:kf_dot_a 3s infinite alternate ease-in-out}.dot_b{animation:kf_dot_b 3s infinite alternate ease-in-out}.wrap_init{opacity:0;animation:kf_wrap_init 3s infinite alternate ease-in-out}.inp_init{opacity:0;animation:kf_inp_subs 3s infinite alternate ease-in-out}.val_subs{opacity:1;animation:kf_val_subs 3s infinite alternate ease-in-out}.inp_subs{opacity:1;animation:kf_inp_init 3s infinite alternate ease-in-out}.crp .arw{animation:kf_hide_arw 3s infinite alternate ease-in-out}.crp .hnd{animation:kf_show_hnd 3s infinite alternate ease-in-out}.crp .crt{animation:kf_show_crt 3s infinite alternate ease-in-out}@keyframes move{0%{offset-path:var(--path_a);offset-distance:0}40.1%{offset-path:var(--path_a);offset-distance:100%}50.1%{offset-path:var(--path_a);offset-distance:100%}50.2%{offset-path:var(--path_b);offset-distance:0}80%{offset-path:var(--path_b);offset-distance:100%}100%{offset-path:var(--path_b);offset-distance:100%}}@keyframes kf_dot_a{0%{opacity:0}40%{opacity:0}40.5%{opacity:1}100%{opacity:1}}@keyframes kf_dot_b{0%{transform:translateX(-1.5%)}40%{transform:translateX(-1.5%)}40.5%{transform:translateX(0)}100%{transform:translateX(0)}}@keyframes kf_wrap_init{0%{opacity:0}80%{opacity:0}80.5%{opacity:1}100%{opacity:1}}@keyframes kf_inp_subs{0%{opacity:0}40%{opacity:0}40.5%{opacity:1}100%{opacity:1}}@keyframes kf_val_subs{0%{opacity:1}40%{opacity:1}40.5%{opacity:0}100%{opacity:0}}@keyframes kf_inp_init{0%{opacity:1}40%{opacity:1}40.5%{opacity:0}100%{opacity:0}}@keyframes kf_hide_arw{0%{opacity:1}32%{opacity:1}32.5%{opacity:0}55%{opacity:0}55.5%{opacity:1}70%{opacity:1}70.5%{opacity:0}100%{opacity:0}}@keyframes kf_show_hnd{0%{opacity:0}32%{opacity:0}32.5%{opacity:1}55%{opacity:1}55.5%{opacity:0}100%{opacity:0}}@keyframes kf_show_crt{0%{opacity:0}70%{opacity:0}70.5%{opacity:1}100%{opacity:1}}}
+    </style>
+    <rect class="bg" width="100%" height="100%" x="0" y="0" rx="3" ry="3" />
+    <g class="fade-in" transform="translate(0,-25)">
+        <g class="infld_a">
+            <path class="inp_subs a1 c1 s1" d="M30.5 62.6V66.4C30.5 68.2 31.8 69.6 33.7 69.6H132.1M138 69.6H235.7C237.5 69.6 238.9 68.2 238.9 66.4V62.6"/>
+            <text class="a2 val_subs" x="142" y="62.624">02/04/2025</text>
+            <path class="inp_init a1 c1 s1" d="M30.5 62.6V66.4C30.5 68.2 31.8 69.6 33.7 69.6H235.7C237.5 69.6 238.9 68.2 238.9 66.4V62.6"/>
+            <text class="a2" x="36" y="62.624">01/04/2025</text>
+        </g>
+        <g id="btn" transform="translate(249, 62.5)">
+            <path class="button a1 c1 s1" d="M18-17.9C19.8-17.9 21.3-16.4 21.3-14.6V3.9C21.3 5.7 19.8 7.1 18 7.1H-.5C-2.2 7.1-3.7 5.7-3.7 3.9V-14.6C-3.7-16.4-2.2-17.9-.5-17.9Z"/>
+            <text class="dot_a a3" x="0" y="0">•</text>
+            <text class="dot_b a3" x="8.792" y="0">•</text>
+        </g>
+        <g class="wrap_init">
+            <path class="a1 c1 s1" d="M186.2 182.4H35.6C33 182.4 31 180.3 31 177.8V83.2c0-2.5 2-4.6 4.6-4.6h150.7c2.5 0 4.6 2 4.6 4.6v94.6c0 2.5-2 4.6-4.6 4.6z"/>
+            <g id="b">
+                <text class="a5 s1" x="59" y="100.63">▲</text>
+                <text class="a5 s1" x="59" y="164.249">▼</text>
+            </g>
+            <use class="a5" xlink:href="#b" transform="translate(48.7)"/>
+            <use class="a5" xlink:href="#b" transform="translate(99)"/>
+            <path id="a" class="a1 c1 s1" d="M83.9 118V143.1M38.9 107.6V89.8A3.3 3.3 0 0142.2 86.5H80.7A3.3 3.3 0 0183.9 89.8V107.6M38.9 143.1V117.9M83.9 153.6V171.3A3.3 3.3 0 0180.7 174.5H42.2A3.3 3.3 0 0138.9 171.3V153.6"/>
+            <use class="c1" xlink:href="#a" transform="translate(49.5)"/>
+            <use class="c1" xlink:href="#a" transform="translate(99)"/>
+            <text class="a4 s1" x="52.5"  y="125.5">TUE</text>
+            <text class="a6 s1" x="54"    y="142">01</text>
+            <text class="a4 s1" x="102.5" y="125.5">APR</text>
+            <text class="a6 s1" x="103.5" y="142">04</text>
+            <text class="a7 s1" x="149"   y="125.5">YEAR</text>
+            <text class="a6 s1" x="146"   y="142">2025</text>
+        </g>
+    </g>
+    <g transform="translate(57 -70)">
+        <g class="crp">
+            <path class="arw" d="M0 0 13.86 9.405 11.88 9.9A2.475 2.475 90 009.9 13.365L12.375 17.325 9.9 18.81 7.425 15.345A2.475 2.475 90 003.465 15.345L1.98 16.83Z"/>
+            <path class="hnd" d="M0 1.6S0 9.4 0 9.4C-.5 8.4-1.6 7.9-2.6 7.9-3.4 7.9-4.2 8.4-4.2 8.9-4.2 10-3.7 10.2-3 10.6-2.1 11.1-2.1 12.1-2.1 13.1-2 14.7-1.4 15.9-.2 16.9 1.1 18 1.1 18.6 1.2 19.4V21H8.9V19.4C8.9 16.8 10.5 16.8 10.5 13.7 10.5 13.7 10.5 8.5 10.5 8.5 10.5 7 9.8 6.5 8.7 6.3 8.7 6.3 2.6 5.3 2.6 5.3S2.6 1.6 2.6 1.6C2.6-.5 0-.5 0 1.6Z"/>
+            <path class="crt" d="M2.8 12.9C2.8 13.8 3.5 14.6 4.4 14.6H5.5 0 1.1C2 14.6 2.8 13.8 2.8 12.9V1.6C2.8.8 2 0 1.1 0H0 5.5 4.4C3.5 0 2.8.8 2.8 1.6"/>
+        </g>
+    </g>
+</svg>

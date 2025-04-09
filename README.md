@@ -10,7 +10,7 @@
 
 <div markdown='1' class="header_preview">
 
-![Screenshot](https://github.com/VivaRado/TimeInterval/raw/main/_README/assets/media/time_interval_preview.svg)
+![Screenshot](https://github.com/VivaRado/TimeInterval/raw/main/_README/assets/media/time_interval_animation.svg)
 
 </div>
 
@@ -951,8 +951,7 @@ npm install
 
 ### **Reference**
 
-
-
-N/A
+[**Date Object**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date)<br>
+[**Date Field Symbol Table**](https://www.unicode.org/reports/tr35/tr35-dates.html#Date_Field_Symbol_Table)<br>
 
 ---
