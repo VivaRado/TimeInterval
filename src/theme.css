@@ -18,7 +18,20 @@ header {
 }
 .header_logo {
 	float: right;
-	filter: invert(1);
+}
+@media (prefers-color-scheme: dark) {
+	body {
+		background: #000;
+		color: #fff;
+	}
+	code {
+		background: rgba(255,255,255,0.1);
+	}
+	.command_buttons .btn:hover::before,
+	.command_buttons .btn::before {
+		color: #FFF;
+		box-shadow: inset 0px 0px 0px 2px rgba(255, 255, 255, 0.5);
+	}
 }
 
 /* Part of VivaRado UI */
@@ -325,4 +338,27 @@ nav[role="timeinterval"].range_double .time_intvl:nth-child(1) > .inp:not(:read-
 }
 nav[role="timeinterval"] .btn.range_toggle {
 	border: none;
+}
+
+@media (prefers-color-scheme: dark) {
+	nav[role="timeinterval"] .inp,
+	nav[role="timeinterval"] .inp:hover {
+		color: rgba(255, 255, 255, 0.9);
+  		border-color: rgba(255, 255, 255, 0.4);
+	}
+	nav[role="timeinterval"] .wrap {
+		background: #000;
+		box-shadow: inset 0px 0px 0px 2px rgba(255, 255, 255, 0.5);
+	}
+	nav[role="timeinterval"] .wrap .btn::before{
+		color: #FFF;
+		box-shadow: inset 0px 0px 0px 2px rgba(255, 255, 255, 0.5);
+	}
+	nav[role="timeinterval"] .time_input .btn:after{
+		color: #8e8e8e;
+	}
+	nav[role="timeinterval"] .btn::before {
+		color: #FFF;
+		box-shadow: inset 0px 0px 0px 2px rgba(255, 255, 255, 0.5);
+	}
 }
