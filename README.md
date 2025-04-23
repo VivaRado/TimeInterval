@@ -106,8 +106,6 @@ The ```src``` contains **ESM** (ECMAScript modules) only for the JS, the structu
 <br>
 
 
-ABC
-
 ---
 
 ### **Usage**
